@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbinaServer1", "AlbinaServer1\AlbinaServer1.csproj", "{F170FC01-8C46-4E52-88FC-2CED55AF0A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbinaServer1", "AlbinaServer1\AlbinaServer1.csproj", "{F170FC01-8C46-4E52-88FC-2CED55AF0A12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{116FFF1A-7235-46AE-915F-1514DF0D8B35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{1D7A4314-3960-445C-A346-167F849DEC5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{BFA1A7ED-7CFD-4411-A73D-C57938641FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.Core", "Albina.Core\Albina.Core.csproj", "{D3AC6645-961B-440C-8F6C-97B2E8B79AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.DataAccess", "Albina.DataAccess\Albina.DataAccess.csproj", "{00242F51-2FF6-437B-8F11-A6ABBC0CE04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.DataAccess.Core", "Albina.DataAccess.Core\Albina.DataAccess.Core.csproj", "{A5DE55BC-B828-4EDD-8E4D-0B38A537548A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,27 @@ Global
 		{F170FC01-8C46-4E52-88FC-2CED55AF0A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F170FC01-8C46-4E52-88FC-2CED55AF0A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F170FC01-8C46-4E52-88FC-2CED55AF0A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AC6645-961B-440C-8F6C-97B2E8B79AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AC6645-961B-440C-8F6C-97B2E8B79AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AC6645-961B-440C-8F6C-97B2E8B79AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AC6645-961B-440C-8F6C-97B2E8B79AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00242F51-2FF6-437B-8F11-A6ABBC0CE04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00242F51-2FF6-437B-8F11-A6ABBC0CE04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00242F51-2FF6-437B-8F11-A6ABBC0CE04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00242F51-2FF6-437B-8F11-A6ABBC0CE04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F170FC01-8C46-4E52-88FC-2CED55AF0A12} = {116FFF1A-7235-46AE-915F-1514DF0D8B35}
+		{D3AC6645-961B-440C-8F6C-97B2E8B79AFD} = {116FFF1A-7235-46AE-915F-1514DF0D8B35}
+		{00242F51-2FF6-437B-8F11-A6ABBC0CE04B} = {BFA1A7ED-7CFD-4411-A73D-C57938641FDC}
+		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A} = {BFA1A7ED-7CFD-4411-A73D-C57938641FDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D407D69-65ED-4AFD-8891-74570EEA8604}
