@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Albina.DataAccess.Core.Enums
 {
-    class VirtualExpenseStatusRto
+    public enum VirtualExpenseStatusRto
     {
+        Wait,
+        Accept,
+        Reject,
     }
 }
