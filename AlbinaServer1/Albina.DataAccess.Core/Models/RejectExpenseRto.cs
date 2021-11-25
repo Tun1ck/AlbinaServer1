@@ -9,7 +9,8 @@ namespace Albina.DataAccess.Core.Models
     public class RejectExpenseRto
     {
         [Key] public int Id { get; set; }
-        public int AuthorId { get; set; }
+        public int? USerId { get; set; }
+        public UserRto User { get; set; }
         public string WhereSpend { get; set; }
         public float Cost { get; set; }
         public CostCurrencyRto CostCurrency { get; set; }
