@@ -19,7 +19,7 @@ namespace Albina.DataAccess.Core.Models
         [Required] public string PhoneNumber { get; set; }
 
         [Required, MinLength(7)] public string Passoword { get; set; }
-        public string ImageName { get; set; }
+        public string ImageUrl { get; set; } 
         #endregion
         #region Внешние ключи 
         public List<VirtualExpenseRto> VirtualExpenses { get; set; }
@@ -27,6 +27,7 @@ namespace Albina.DataAccess.Core.Models
         public List<RejectExpenseRto> RejectExpenses{ get; set; }
 
         public List<AcceptExpenseRto> AcceptExpenses { get; set; }
+        public object Password { get; set; }
         #endregion
 
 
