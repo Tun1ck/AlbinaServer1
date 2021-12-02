@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.BisinesLogic", "Albi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.BisinesLogic.Core", "Albina.BisinesLogic.Core\Albina.BisinesLogic.Core.csproj", "{4D8872C1-6DE5-43EE-A37B-02E06E68B5DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FF750ADF-A298-4514-89F6-9AC970C3C6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shareds", "Shareds\Shareds.csproj", "{7D7951EB-21B9-43E7-9E06-FBFC96438AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{4D8872C1-6DE5-43EE-A37B-02E06E68B5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8872C1-6DE5-43EE-A37B-02E06E68B5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8872C1-6DE5-43EE-A37B-02E06E68B5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7951EB-21B9-43E7-9E06-FBFC96438AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7951EB-21B9-43E7-9E06-FBFC96438AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7951EB-21B9-43E7-9E06-FBFC96438AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7951EB-21B9-43E7-9E06-FBFC96438AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{A5DE55BC-B828-4EDD-8E4D-0B38A537548A} = {BFA1A7ED-7CFD-4411-A73D-C57938641FDC}
 		{66CA9D4E-5D73-40BD-930E-7A04480F615B} = {1D7A4314-3960-445C-A346-167F849DEC5B}
 		{4D8872C1-6DE5-43EE-A37B-02E06E68B5DE} = {1D7A4314-3960-445C-A346-167F849DEC5B}
+		{7D7951EB-21B9-43E7-9E06-FBFC96438AF6} = {FF750ADF-A298-4514-89F6-9AC970C3C6F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D407D69-65ED-4AFD-8891-74570EEA8604}
